@@ -17,7 +17,7 @@ Admob plugin that shows banner ads using native platform views.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   # https://firebase.google.com/docs/ios/setup
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 7.67'
+  s.dependency 'Google-Mobile-Ads-SDK'
   s.ios.deployment_target = '9.0'
   s.static_framework = true
 end
